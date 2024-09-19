@@ -3,6 +3,8 @@ Python Assignment 1: Advanced Phone Book Management Application
 
 ## Overview
 This project is an advanced command-line Phone Book Management application written in Python. It allows users to add, view, search, update, and delete contacts. The application supports individual and batch operations (from CSV files) and includes input validation, logging, and sorting/grouping features for better contact management.
+![add_a_contact](https://github.com/KexinZhu011/phone_book_management/blob/main/images/add.png)
+![add_from_csv](https://github.com/KexinZhu011/phone_book_management/blob/main/images/add_from_csv.png)
 
 ## Features
 
@@ -11,13 +13,14 @@ This project is an advanced command-line Phone Book Management application writt
   - Search contacts by name or phone number. Supports fuzzy search. For example, searching for "mo" will return results such as "monica."
   - Update contacts.
   - Delete contacts individually, or in batch mode from CSV files, or in batch mode by phone numbers.
-  
+![delete](https://github.com/KexinZhu011/phone_book_management/blob/main/images/delete.png)
+
 - **Input Validation**: Ensures proper format for phone numbers and email addresses.
 
 - **Sorting and Grouping**:
   - Sort contacts by last name (ascending or descending).
   - Group contacts by the initial letter of their last name.
-
+![display_by_desc](https://github.com/KexinZhu011/phone_book_management/blob/main/images/display.png)
 - **Logging**: Tracks all actions (add, update, delete) with timestamps for auditing.
 
 - **Error Handling**: 
@@ -89,10 +92,11 @@ This project is an advanced command-line Phone Book Management application writt
    - If the phone number doesn't match the required format, the contact will not be added, and the user will be prompted with an "Invalid phone number" message.
 
 2. **Batch Adding Contacts from a CSV**:
-   - Contacts can be added in bulk using a CSV file. Each contact will be validated, and any invalid entries will be skipped with a corresponding message.
+   - Contacts can be added in bulk using a CSV file. Each contact will be validated as file `add_data_example.csv`, and any invalid entries will be skipped with a corresponding message.
 
 3. **Batch Deleting Contacts by Phone Numbers**:
    - You can delete multiple contacts by providing a list of phone numbers, either manually or via a CSV file. Invalid phone numbers or contacts not found will be skipped with a corresponding message.
+![delete_by_numbers](https://github.com/KexinZhu011/phone_book_management/blob/main/images/delete_by_numbers.png)
 
 ## Running the Application
 
