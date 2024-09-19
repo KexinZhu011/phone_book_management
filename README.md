@@ -8,7 +8,7 @@ This project is an advanced command-line Phone Book Management application writt
 
 - **CRUD Operations**: Users can create, retrieve, update, and delete contacts.
   - Add contacts individually or in batch mode from CSV files. 
-  - Search contacts by name or phone number.
+  - Search contacts by name or phone number. Supports fuzzy search. For example, searching for "mo" will return results such as "monica."
   - Update contacts.
   - Delete contacts individually, or in batch mode from CSV files, or in batch mode by phone numbers.
   
@@ -20,7 +20,11 @@ This project is an advanced command-line Phone Book Management application writt
 
 - **Logging**: Tracks all actions (add, update, delete) with timestamps for auditing.
 
-- **Error Handling**: Comprehensive validation to ensure data integrity, including invalid phone numbers or email addresses.当电话输入格式不正确，例如要求输入(###) ###-####，实际上输入(###)###-####也可以保存；根据电话号码批量删除时，如果没有按照格式，例如在逗号之间增加了空格、最后一位有空格/逗号的情况，也可以识别并继续操作。
+- **Error Handling**: 
+    - Comprehensive validation to ensure data integrity, including invalid phone numbers or email addresses.
+    - Duplicate Check for phone numbers during addition: When adding a new contact, the system checks for duplicate phone numbers to ensure that no two contacts have the same phone number.
+    - Flexible Phone Number Input: The system accepts phone numbers even if there are minor format inconsistencies. For example, phone numbers can be saved in the format (###) ###-#### or (###)###-####. 
+    - Deletion by Format: When performing bulk deletions based on phone numbers, the system can handle variations such as extra spaces between numbers, commas, or trailing spaces, and will still recognize and process the input correctly.
 
 ## Files
 
