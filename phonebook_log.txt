@@ -62,3 +62,11 @@
 2024-09-19 18:52:59.076500 - Added contact: Name: rachel greene, Phone: (999) 999-0000, Email: rgreene@uottawa.ca, Address: bbb, Created: 2024-09-19 18:52:59.076407, Updated: 2024-09-19 18:52:59.076409
 2024-09-19 18:52:59.076666 - Added contact: Name: phoebe buffay, Phone: (999) 999-1111, Email: pbuffay@uottawa.ca, Address: ccc, Created: 2024-09-19 18:52:59.076599, Updated: 2024-09-19 18:52:59.076601
 2024-09-19 18:52:59.076809 - Added contact: Name: ross geller, Phone: (999) 999-6666, Email: rgeller@uottawa.ca, Address: ddd, Created: 2024-09-19 18:52:59.076753, Updated: 2024-09-19 18:52:59.076755
+2024-09-19 21:25:09.471690 - Added contact: Name: monana geller, Phone: (999)878-7878, Email: N/A, Address: N/A, Created: 2024-09-19 21:25:09.471388, Updated: 2024-09-19 21:25:09.471415
+2024-09-19 21:25:48.825744 - Added contact: Name: monica geller, Phone: (999) 999-9999, Email: mgeller@uottawa.ca, Address: AAA, Created: 2024-09-19 21:25:48.825658, Updated: 2024-09-19 21:25:48.825666
+2024-09-19 21:25:48.826703 - Added contact: Name: rachel greene, Phone: (999) 999-0000, Email: rgreene@uottawa.ca, Address: bbb, Created: 2024-09-19 21:25:48.826634, Updated: 2024-09-19 21:25:48.826636
+2024-09-19 21:25:48.826803 - Added contact: Name: phoebe buffay, Phone: (999) 999-1111, Email: pbuffay@uottawa.ca, Address: ccc, Created: 2024-09-19 21:25:48.826763, Updated: 2024-09-19 21:25:48.826764
+2024-09-19 21:25:48.826994 - Added contact: Name: ross geller, Phone: (999) 999-6666, Email: rgeller@uottawa.ca, Address: ddd, Created: 2024-09-19 21:25:48.826930, Updated: 2024-09-19 21:25:48.826932
+2024-09-19 21:28:54.847041 - Deleted contact: Name: monana geller, Phone: (999)878-7878, Email: N/A, Address: N/A, Created: 2024-09-19 21:25:09.471388, Updated: 2024-09-19 21:25:09.471415
+2024-09-19 21:31:11.199061 - Added contact: Name: mon geller, Phone: (789) 789-7899, Email: N/A, Address: N/A, Created: 2024-09-19 21:31:11.198630, Updated: 2024-09-19 21:31:11.198645
+2024-09-19 21:32:33.197459 - Added contact: Name: monne geller, Phone: (789)789-7899, Email: N/A, Address: N/A, Created: 2024-09-19 21:32:33.197315, Updated: 2024-09-19 21:32:33.197319

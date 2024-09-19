@@ -78,7 +78,7 @@ This project is an advanced command-line Phone Book Management application writt
 ## Input Validation and Error Handling
 
 - **Phone Validation**: 
-    - Phone numbers must follow the format `(###) ###-####` or `###-###-####`. Invalid phone numbers will be rejected with an error message. 
+    - Phone numbers must follow the format `(###) ###-####` or `(###)###-####`. Invalid phone numbers will be rejected with an error message. 
     - Phone numbers must be unique.
 - **Email Validation**: Email addresses are optional but must follow the format `example@domain.com` if provided.
 - **Name Validation**: Names are required and must contain only alphabetic characters.
